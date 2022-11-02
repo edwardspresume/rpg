@@ -1,0 +1,77 @@
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    background-color: darkblue;
+    background-color: #000;
+    background-image: radial-gradient(red, green, blue);
+    background-image: radial-gradient(
+        closest-side at 50% 83%,
+        rgb(33, 33, 66),
+        rgb(6, 79, 6) 1%,
+        rgb(21, 4, 52),
+        black 90% /* black */
+    );
+    background-repeat: no-repeat, repeat;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.container {
+    display: grid;
+    /* height: 100vh; */
+    place-items: center;
+}
+
+.img-div {
+    margin: 20px 0;
+    max-width: 700px;
+}
+
+img {
+    border: 1px solid grey;
+    max-width: 100%;
+}
+#text {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+#game {
+    max-width: 500px;
+    max-height: 400px;
+    background-color: lightgray;
+    color: white;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+#controls {
+    border: 1px black solid;
+    padding: 5px;
+}
+
+#stats {
+    border: 1px black solid;
+    color: black;
+    padding: 5px;
+}
+
+#monsterStats {
+    display: none;
+    border: 1px black solid;
+    color: white;
+    padding: 5px;
+    background-color: red;
+}
+
+.stat {
+    padding-right: 10px;
+}
