@@ -6,7 +6,7 @@ body {
     background-color: #000;
     background-image: radial-gradient(red, green, blue);
     background-image: radial-gradient(
-        closest-side at 50% 83%,
+        closest-side at 50% 89%,
         rgb(33, 33, 66),
         rgb(6, 79, 6) 1%,
         rgb(21, 4, 52),
